@@ -1,4 +1,11 @@
-# CCBench_results(fix after publish)
+<div style="text-align: center; font-family: sans-serif; font-size: 60px; line-height: 1.4; color: #272a2e;">
+    <p><em>"If I have seen further it is by standing on the shoulders of Giants."</em></p>
+    <p><strong>Isaac Newton, 1675.</strong></p>
+</div>
+
+
+
+# CCBench reproducible results code(fix after publish)
 Raw results and plotting scripts for paper under review
 
 ### To work with this repo locally:
