@@ -26,7 +26,7 @@ git clone git@github.com:systemoutprintlnhelloworld/CCBench.git --recursive
 * Figure S17 | Figure S18: `python expertise_analyses.py`
 
 ### To obtain human results:
-Please refer to the dedicated repo - [https://github.com/systemoutprintlnhelloworld/CCBench/]([url](https://github.com/systemoutprintlnhelloworld/CCBench/)
+Please refer to this location - [https://github.com/systemoutprintlnhelloworld/CCBench/](https://github.com/systemoutprintlnhelloworld/CCBench/)
 ### To obtain model results:
 Model perplexities on BrainBench testcases:
 * For human created testcases, see `model_results/<model_name>/human_abstracts/PPL_A_and_B.npy`, which is a 2D numpy array, with shape `(num_testcases, 2)`, `PPL_A_and_B[i][0]` is the perplexity of the first abstract of the ith testcase.
