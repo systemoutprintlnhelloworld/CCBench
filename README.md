@@ -104,8 +104,9 @@ python 4.Result statistics/Fig. 6/plot_fig6.py
 ## License
 
 This project is licensed under the MIT License.
-```
 
-### Attribution(fix after publish)
+## Citation
+If you use this repository in your work, please cite our paper:
 ```
+[1] [Paper Title], Authors, Conference/Journal (Year).
 ```
