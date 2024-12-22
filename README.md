@@ -18,79 +18,46 @@ Collecting workspace information
 # Paper Reproduction Code
 
 This is the reproduction code repository for the paper, including code for dataset construction, evaluation process, answer assessment, and result statistics. By running these codes, you can reproduce the conclusions and charts in the paper.
-
+```
 ## Directory Structure
 
-```
-.gitignore
-.vscode/
-	settings.json
-1.Dataset construct/
-	extract image/
-		download_image-v2.py
-		download_image-v3.py
-		download&compare_img_in_excel.py
-	pipeline mainthread/
-		
+```bash
+Repository: https://github.com/systemoutprintlnhelloworld/CCBench
 
-assistgram_qa.py
-
-
-		
-
-assistgram.py
-
-
-		
-
-ChimeraGPT-qa.py
-
-
-		
-
-ChimeraGPT-vqa.py
-
-
-	postprogress/
-		excel-rename.py
-		rename-v2-webexclusive.py
-		...
-2.Evaluation pipeline/
-	QA/
-		formatted/
-		pipeline/
-	VQA/
-3.Answer assessment/
-	Close-ended/
-	Open-ended/
-4.Result statistics/
-	Fig. 1/
-	Fig. 4/
-	Fig. 5/
-	Fig. 6/
-LICENSE
-
-
-README.md
-
-
+(workspaces)
+├─ 1.Dataset construct
+│   ├─ extract image
+│   │   ├─ download_image-v2.py
+│   │   ├─ download_image-v3.py
+│   │   └─ download&compare_img_in_excel.py
+│   ├─ pipeline mainthread
+│   └─ postprogress
+├─ 2.Evaluation pipeline
+│   ├─ QA
+│   │   ├─ formatted
+│   │   └─ pipeline
+│   └─ VQA
+├─ 3.Answer assessment
+│   ├─ Close-ended
+│   └─ Open-ended
+├─ 4.Result statistics
+│   ├─ Fig. 1
+│   ├─ Fig. 4
+│   ├─ Fig. 5
+│   └─ Fig. 6
+└─ LICENSE
+   README.md
 ```
 
 ## Running Environment
 
-Please ensure that the following dependencies are installed in your environment:
-
-- Python 3.x
-- pandas
-- openpyxl
-- tqdm
-- matplotlib
-- openai
-
-You can install the required dependencies using the following command:
-
 ```sh
-pip install pandas openpyxl tqdm matplotlib openai
+pip install \
+  pandas \
+  openpyxl \
+  tqdm \
+  matplotlib \
+  openai
 ```
 
 ## Dataset Construction
