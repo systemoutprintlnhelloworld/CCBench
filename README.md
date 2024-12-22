@@ -4,7 +4,8 @@
     <p><strong>Isaac Newton, 1675.</strong></p>
 </div>
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Versions](https://img.shields.io/badge/Python-3.9--3.12-blue.svg)](#)
 
 Raw results and plotting scripts for paper under review
 
