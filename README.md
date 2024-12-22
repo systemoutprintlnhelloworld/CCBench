@@ -1,4 +1,4 @@
-# CCBench reproducible results code(fix after publish)
+# CCBench Reproducible Results Code (to be updated upon publication)
 <div style="text-align: center; font-family: sans-serif; font-size: 60px; line-height: 1.4; color: #272a2e;">
     <p><em>"If I have seen further it is by standing on the shoulders of Giants."</em></p>
     <p><strong>Isaac Newton, 1675.</strong></p>
@@ -12,12 +12,12 @@ Raw results and plotting scripts for paper under review
 ```
 git clone git@github.com:systemoutprintlnhelloworld/CCBench.git --recursive
 ```
-Collecting workspace information
+Collecting environment details
 
 ```markdown
 # Paper Reproduction Code
 
-This is the reproduction code repository for the paper, including code for dataset construction, evaluation process, answer assessment, and result statistics. By running these codes, you can reproduce the conclusions and charts in the paper.
+This repository contains the code for reproducing all experiments and figures described in our paper. By running these scripts, you can replicate the datasets, evaluation procedures, and results used in the publication.
 ```
 ## Directory Structure
 
