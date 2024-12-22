@@ -71,36 +71,15 @@ python 1.Dataset construct/extract image/download&compare_img_in_excel.py
 ```
 
 ## Evaluation Process
+In this section, each script corresponds to specific figures or tables in the paper. Running these scripts will generate necessary outputs to replicate the quantitative and qualitative results. Scripts may include:
+- Data parsing or intermediate result generation
+- Automatic metric computation
+- Plot or table creation
+
+Refer to the figure or table identifier in the paper to select the correct script to run, and confirm if additional parameters (e.g., --use_human_abstract) are required for your use case.
 
 Run the corresponding evaluation scripts according to different figures and tables:
 
-- Figure 3A | Figure S20: `python 2.Evaluation 
-
-test-gpt4.py
-
- --use_human_abstract <True|False>`
-- Figure 3B | Figure S5 | Figure S21 | Figure S23: `python 2.Evaluation 
-
-test-bard.py
-
- --use_human_abstract <True|False>`
-- Figure 3C | Figure S22: `python 2.Evaluation 
-
-test-llama2.py
-
- --use_human_abstract <True|False>`
-- Figure 4 | Figure S25 | Table S3: `python 2.Evaluation 
-
-test-claude2.py
-
- --use_human_abstract <True|False>`
-- Figure 5: `python 4.Result statistics/Fig. 5/create_diff_table_is-qa.py`
-- Figure S3: `python 2.Evaluation pipeline/QA/pipeline/test-qianwen.py`
-- Figure S4: `python 2.Evaluation pipeline/QA/pipeline/test-wenxin.py`
-- Figure S6 | Figure S24: `python 2.Evaluation pipeline/QA/pipeline/test-gpt4.py`
-- Figure S7: `python 2.Evaluation pipeline/QA/pipeline/test-bard.py`
-- Figure S8: `python 2.Evaluation pipeline/QA/pipeline/test-llama2.py`
-- Figure S17 | Figure S18: `python 2.Evaluation pipeline/QA/pipeline/test-claude2.py`
 
 ## Answer Assessment
 
