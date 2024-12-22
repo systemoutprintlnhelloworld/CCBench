@@ -4,7 +4,7 @@
     <p><strong>Isaac Newton, 1675.</strong></p>
 </div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.9--3.12-blue.svg)](#)
 
 Raw results and plotting scripts for paper under review
@@ -104,7 +104,7 @@ python 4.Result statistics/Fig. 6/plot_fig6.py
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
 
 ## Citation
 If you use this repository in your work, please cite our paper:
