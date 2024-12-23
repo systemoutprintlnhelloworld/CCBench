@@ -1,11 +1,11 @@
 # CCBench Reproducible Results Code (to be updated upon publication)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Python Versions](https://img.shields.io/badge/Python-3.9--3.12-blue.svg)](#)
+
 <div style="text-align: center; font-family: sans-serif; font-size: 60px; line-height: 1.4; color: #272a2e;">
     <p><em>"If I have seen further it is by standing on the shoulders of Giants."</em></p>
     <p><strong>Isaac Newton, 1675.</strong></p>
 </div>
-
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Python Versions](https://img.shields.io/badge/Python-3.9--3.12-blue.svg)](#)
 
 Raw results and plotting scripts for paper under review
 
